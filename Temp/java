@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <title>My Portfolio Page</title>
+
+```
+<style>
+    body {
+        font-family: Arial;
+        background-color: #f4f4f4;
+        margin: 0;
+    }
+
+    header {
+        background-color: #333;
+        color: white;
+        padding: 15px;
+        text-align: center;
+    }
+
+    nav {
+        background-color: #555;
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav a {
+        color: white;
+        margin: 10px;
+        text-decoration: none;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .card {
+        background: white;
+        padding: 15px;
+        margin: 10px;
+        border-radius: 10px;
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    table, th, td {
+        border: 1px solid black;
+    }
+
+    th, td {
+        padding: 10px;
+        text-align: center;
+    }
+
+    footer {
+        background: #333;
+        color: white;
+        text-align: center;
+        padding: 10px;
+    }
+</style>
+```
+
+</head>
+
+<body>
+
+```
+<header>
+    <h1>My Portfolio</h1>
+    <p>Welcome to my personal webpage</p>
+</header>
+
+<nav>
+    <a href="#">Home</a>
+    <a href="#">About</a>
+    <a href="#">Contact</a>
+</nav>
+
+<section>
+    <div class="card">
+        <h2>About Me</h2>
+        <p>I am learning HTML and web development.</p>
+    </div>
+
+    <div class="card">
+        <h2>My Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>Basic Programming</li>
+        </ul>
+    </div>
+
+    <div class="card">
+        <h2>Marks Table</h2>
+        <table>
+            <tr>
+                <th>Subject</th>
+                <th>Marks</th>
+            </tr>
+            <tr>
+                <td>Math</td>
+                <td>90</td>
+            </tr>
+            <tr>
+                <td>Science</td>
+                <td>85</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="card">
+        <h2>Contact Form</h2>
+        <form>
+            Name: <input type="text"><br><br>
+            Email: <input type="email"><br><br>
+
+            Gender:
+            <input type="radio" name="g"> Male
+            <input type="radio" name="g"> Female<br><br>
+
+            <input type="submit" value="Submit">
+        </form>
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 My Portfolio</p>
+</footer>
+```
+
+</body>
+</html>
